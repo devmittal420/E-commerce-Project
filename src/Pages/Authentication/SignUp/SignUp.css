@@ -1,0 +1,118 @@
+/* Main Container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(
+      135deg,
+      rgb(185, 249, 216),
+      #0d8050,
+      rgb(185, 249, 216)
+    );
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Signup Form Box */
+  .signup-form {
+    background: rgba(230, 242, 229, 0.896);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: slideIn 1s ease-out;
+  }
+  
+  /* Animation for Form Appearance */
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Form Heading */
+  .signup-form h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #069159;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Input Group Styling */
+  .input-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease-in-out;
+    background: #f9f9f9;
+  }
+  
+  .input-group input:focus {
+    border-color: #6a11cb;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .signup-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #0d8050, rgb(62, 197, 44));
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .signup-form button:hover {
+    background: linear-gradient(135deg, rgb(62, 197, 44), #0d8050);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(106, 17, 203, 0.4);
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .signup-form {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    .signup-form h2 {
+      font-size: 1.8rem;
+    }
+  }
+  

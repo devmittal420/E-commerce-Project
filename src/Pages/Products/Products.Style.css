@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+  }
+  .container {
+    font-family: Roboto;
+    background-color: #ebf0ea;
+  }
+  
+  .header {
+    background-color: #4d834a;
+    padding: 20px;
+    color: #fff;
+    margin-top: 0;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+  }
+  
+  .headerTitle {
+    margin-left: 4rem;
+  }
+  
+  .headerCart {
+    background-color: #50dd14;
+    padding: 20px;
+    color: #fff;
+    margin-top: 0;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 5rem;
+  }
+  
+  .backBtn {
+    background-color: white;
+    color: #50dd14;
+    margin-top: 10px;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .cartIcon {
+    height: 3rem;
+    margin-right: 2rem;
+  }
+  
+  .header2 {
+    background-color: #50dd14;
+    padding: 15px;
+    color: #fff;
+    margin-top: 0;
+    font-size: 3rem;
+    text-align: center;
+    height: 4rem;
+  }
+  
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 1rem;
+  }
+  .listItem {
+    margin-bottom: 15px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 360px;
+  }
+  
+  .price {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .btnClass {
+    margin-top: 10px;
+    background-color: #50dd14;
+    color: white;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .btnClass:hover {
+    transform: scale(1.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .removeBtn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .increaseBtn {
+    background-color: #4af347;
+    color: white;
+    font-size: 1rem;
+    width: 2rem;
+  }
+  .decreaseBtn {
+    background-color: #4af347;
+    color: white;
+    font-size: 1rem;
+    width: 2rem;
+  }
+  
