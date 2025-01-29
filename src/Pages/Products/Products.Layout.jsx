@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import cookies from "js-cookie";
 import { getProductList } from "./Products.Service";
-import { addProductToCart } from "../Cart/Cart.service";
+import { addProductToCart } from "../Cart/Cart.Service";
 
 const Product = () => {
   const [fetchProduct, setFetchProduct] = useState([]);
