@@ -13,7 +13,7 @@ import {
   deleteCartProduct,
   getCartList,
   updateProductInCart,
-} from "./Cart.service";
+} from "./Cart.Service";
 
 const Cart = () => {
   const [cart, setCart] = useState([]);
